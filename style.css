@@ -1,0 +1,16 @@
+.centerDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.customTitle {
+  margin-top: 20px;
+}
+
+.customButton {
+  margin: 5px;
+  font-size: 20px;
+}

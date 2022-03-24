@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <title>Audio Syncing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+      <div class="centerDiv">
+      <Button id="detectButton" class = "button is-primary is-light customButton" onclick="detect()">Detect</Button>
+      <Button id="syncButton" class = "button is-primary is-light customButton" onclick="record()">Sync</Button>
+      <Button id="toggleButton" class = "button is-info is-light customButton" onclick="toggle()">Pause</Button>
+      <h1 class="title customTitle" id="songTitle">No Audio Detected</h1>
+      <audio  id="audio"></audio>
+    </div>
+    
+
+      <script src="./node_modules/axios/dist/axios.min.js"></script>
+	<script src="index.js"></script>
+  </body>
+</html>
